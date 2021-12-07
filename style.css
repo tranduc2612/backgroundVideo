@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.background{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background video{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.background img{
+    position: absolute;
+    top: 245px
+}
+
+.block{
+    position: absolute;
+    background-color:  rgb(247,58,41);
+    height: 48px;
+    width: 256px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    border-radius:2px ;
+    transition: .4s linear;
+}
+
+.block:hover{
+    background: black;
+}
+
+.click{
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    color: white;
+}
